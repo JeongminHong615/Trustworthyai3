@@ -48,4 +48,4 @@ def verify_robustness(onnx_path, base_image, target_class, epsilon):
 if __name__ == "__main__":
     dummy_image = np.full((28 * 28,), 0.5, dtype=np.float32)
     
-    verify_robustness("simple_mnist.onnx", dummy_image, target_class=3, epsilon=0.1)
+    verify_robustness("simple_mnist.onnx", dummy_image, target_class=3, epsilon=0.5)
