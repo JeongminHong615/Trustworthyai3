@@ -1,0 +1,5 @@
+maraboupy==2.0.0
+numpy==2.4.4
+onnx==1.21.0
+torch==2.5.1
+torchvision==0.20.1
